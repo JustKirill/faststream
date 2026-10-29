@@ -57,9 +57,6 @@ The `virtualhost` argument sets the same thing and wins over the URL path, so `#
 
     Each broker keeps its own subscribers and publishers. The [Multiple Brokers](../getting-started/multiple_brokers.md){.internal-link} page covers how such an application starts, stops and is tested.
 
-{! docs_src/rabbit/connection/multiple_vhosts.py [ln:1- hl:4-5,7] !}
-
-
 ## `connect()` and `start()`
 
 Which one to call depends on what the broker is for:
